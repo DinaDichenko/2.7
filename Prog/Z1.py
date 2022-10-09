@@ -3,12 +3,12 @@
 
 if __name__ == "__main__":
     u = input("Введите множество: ")
-    a = set("ауеоэюияФУЕЭОЯИЮ")
+    a = set("AEIOUYaeioyауеоэюияФУЕЭОЯИЮ")
     count = 0
 
     for i in u:
         if i in a:
-            count+=1
+            count += 1
 
     print(count)
 
